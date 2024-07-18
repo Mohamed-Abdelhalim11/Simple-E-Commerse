@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  /* color: #333; */
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.filters input, .filters select, .filters button {
+  padding: 10px;
+  font-size: 12px;
+}
+
+.filters input, .filters select {
+  border: 1px solid #ccc;
+}
+
+.filters button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#shopping-cart {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+#cart-container {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+#cart-container .cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+#cart-container img {
+  max-width: 40px;
+  margin-right: 10px;
+}
+
+#product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.product p {
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.product button {
+  background-color: #093fef;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #093fef;
+}
+
+#pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#pagination button:hover {
+  background-color: #093fef;
+}
+
+#pagination .active {
+  background-color: #093fef;
+  color: #fff;
+  border-color: #093fef;
+}
